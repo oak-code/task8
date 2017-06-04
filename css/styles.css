@@ -1,0 +1,33 @@
+html{
+	background:#ffffff;
+}
+body{
+	background:#dddddd;
+	min-width:300px;
+	
+	margin:0;
+	text-align:center;
+	margin:0 auto;
+}
+header{
+	background:#ffffff;
+	height:20px;
+	width:100%;
+	/*position:fixed;
+	top:0; 距顶部0*/ 
+	z-index:999;
+}
+main{
+	padding-top:75px;
+	padding-bottom:15px;
+}
+.Customer_service_hotline{
+	color:#42b683;
+	float:left;
+	margin-left:7%;
+	
+}
+._logo{
+	float:right;
+	margin-right:7%;
+}
