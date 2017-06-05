@@ -3,7 +3,7 @@ html{
 }
 body{
 	background:#dddddd;
-	min-width:300px;
+	min-width:425px;
 	
 	margin:0;
 	text-align:center;
@@ -13,6 +13,7 @@ header{
 	background:#ffffff;
 	height:20px;
 	width:100%;
+	padding: 0 15%;
 	/*position:fixed;
 	top:0; 距顶部0*/ 
 	z-index:999;
@@ -21,13 +22,30 @@ main{
 	
 	
 }
+.main_head{
+	background:#29b078;
+	text-align:right;
+	color:#ffffff;
+	padding-right:11%;
+	height:85px;
+}
+.main_head_btn{
+	background:#29b078;
+	padding:0 4%;
+	outline:none;
+	border:none;
+	height:82px;
+}
+:hover:focus.main_head_btn{
+	border-bottom:5px solid #fff;
+}
 .Customer_service_hotline{
 	color:#42b683;
 	float:left;
-	margin-left:7%;
+	
 	
 }
 ._logo{
 	float:right;
-	margin-right:7%;
+	
 }
