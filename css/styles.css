@@ -22,6 +22,7 @@ main{
 	
 	
 }
+
 .main_head{
 	background:#29b078;
 	text-align:right;
@@ -36,16 +37,27 @@ main{
 	border:none;
 	height:82px;
 }
-:hover:focus.main_head_btn{
+.main_head_btn:hover{
+	border-bottom:5px solid #fff;
+}
+.main_head_btn:focus{
 	border-bottom:5px solid #fff;
 }
 .Customer_service_hotline{
 	color:#42b683;
 	float:left;
-	
-	
 }
+
 ._logo{
 	float:right;
+	
+}
+.active img{
+	 width:100%;
+ }
+.Control_box{
+	color:#ffffff;
+}
+.carousel-caption1{
 	
 }
