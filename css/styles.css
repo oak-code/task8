@@ -19,7 +19,7 @@ header{
 	z-index:999;
 }
 main{
-	
+	background:#ffffff;
 	
 }
 
@@ -67,4 +67,60 @@ main{
 	position:relative;
 	bottom:150px;
 	
+}
+.main_top{
+	padding: 0 15%;
+	padding-top:70px;
+}
+.main_top img{
+	width:25px;
+}
+.main_top_text{
+	width:100%;
+	font-size:0.1em;
+	text-align:left;
+} 
+.main_top_text2{
+	padding-top:10px;
+	font-size:1em;
+	font-weight:900;
+} 
+
+.archive_img{
+	padding-top:12px;
+}
+.shape_img{
+	padding-top:8px;
+}
+.rocket{
+	float:left;
+	width:20%;
+	margin-right:5%;
+}
+.archive{
+	float:left;
+	width:20%;
+	margin-right:5%;
+}
+.shape{
+	float:left;
+	width:20%;
+	margin-right:5%;
+}
+.student{
+	float:left;
+	width:25%;
+	text-align:left;
+	margin-top:5%;
+}
+.glyphicon-user{
+	color:#29b078;
+}
+.study{
+	padding: 0 15%;
+	float:left;
+	width:100%;
+}
+.study_text{
+	padding: 5% 0;
 }
