@@ -1,25 +1,26 @@
 html{
-	background:#ffffff;
+	background:#fafafa;
 }
 body{
 	background:#dddddd;
-	min-width:425px;
+	min-width:768px;
 	
 	margin:0;
 	text-align:center;
 	margin:0 auto;
 }
 header{
-	background:#ffffff;
+	background:#fafafa;
 	height:20px;
 	width:100%;
 	padding: 0 15%;
 	/*position:fixed;
 	top:0; 距顶部0*/ 
 	z-index:999;
+	min-width:768px;
 }
 main{
-	background:#ffffff;
+	background:#fafafa;
 	
 }
 
@@ -71,6 +72,7 @@ main{
 .main_top{
 	padding: 0 15%;
 	padding-top:70px;
+	
 }
 .main_top img{
 	width:25px;
@@ -111,7 +113,10 @@ main{
 	float:left;
 	width:25%;
 	text-align:left;
-	margin-top:5%;
+	padding-top:2%;
+	padding-bottom:2%;
+	padding-left:5%;
+	border-left:1px dashed #dedede;
 }
 .glyphicon-user{
 	color:#29b078;
@@ -122,5 +127,88 @@ main{
 	width:100%;
 }
 .study_text{
-	padding: 5% 0;
+	padding-top: 3%;
+}
+.study_box1{
+	padding-top: 3%;
+	display: flex;
+    justify-content: space-between;
+	align-items: center ;
+}
+.study_box_1{
+	float:left;
+	
+	
+}
+.study_box_text{
+	
+	font-size:0.1em;
+	text-align:left;
+	width:11%;
+	
+	margin-left:2%;
+}
+.study_img{
+
+	width:10px;
+	
+	margin-right:2%;
+	margin-left:2%;
+}
+.study_box_2{
+	
+	background:#ffffff;
+	
+	width:40px;
+	color:#29b078;
+	border-style:solid;
+	border-color:#ebebeb;
+	border-radius:50px;
+	height:40px;
+	padding-top:8px;
+}
+.good_student{
+	padding: 0 15%;
+	float:left;
+	width:100%;
+}
+.good_student_box1{
+	padding-top: 3%;
+	background:#ffffff;	
+	width:24%;
+	float:left;
+	margin-right:1%;
+	border-style:solid;
+	border-color:#ebebeb;
+}
+.good_student_box2{
+	padding-top: 3%;
+	background:#ffffff;	
+	width:23%;
+	float:left;
+	margin: 0 1%;
+	border-style:solid;
+	border-color:#ebebeb;
+}
+.good_student_box3{
+	padding-top: 3%;
+	background:#ffffff;	
+	width:23%;
+	float:left;
+	margin: 0 1%;
+	border-style:solid;
+	border-color:#ebebeb;
+}
+.good_student_box4{
+	padding-top: 3%;
+	background:#ffffff;	
+	width:24%;
+	float:left;
+	margin-left:1%;
+	border-style:solid;
+	border-color:#ebebeb;
+}
+.good_student_box_text{
+	padding: 0 6%;
+	text-align:left;
 }
