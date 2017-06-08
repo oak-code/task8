@@ -13,7 +13,7 @@ header{
 	background:#fafafa;
 	height:20px;
 	width:100%;
-	padding: 0 15%;
+	padding: 0 10%;
 	/*position:fixed;
 	top:0; 距顶部0*/ 
 	z-index:999;
@@ -70,7 +70,7 @@ main{
 	
 }
 .main_top{
-	padding: 0 15%;
+	padding: 0 10%;
 	padding-top:70px;
 	
 }
@@ -87,7 +87,11 @@ main{
 	font-size:1em;
 	font-weight:900;
 } 
-
+.main_body{
+	padding: 0 10%;
+	float:left;
+	width:100%;
+}
 .archive_img{
 	padding-top:12px;
 }
@@ -96,18 +100,20 @@ main{
 }
 .rocket{
 	float:left;
-	width:20%;
-	margin-right:5%;
+	width:25%;
+	padding-right:5%;
 }
 .archive{
 	float:left;
-	width:20%;
-	margin-right:5%;
+	width:25%;
+	padding-right:2.5%;
+	padding-left:2.5%;
 }
 .shape{
 	float:left;
-	width:20%;
-	margin-right:5%;
+	width:25%;
+	padding-right:2.5%;
+	padding-left:2.5%;
 }
 .student{
 	float:left;
@@ -121,13 +127,10 @@ main{
 .glyphicon-user{
 	color:#29b078;
 }
-.study{
-	padding: 0 15%;
-	float:left;
-	width:100%;
-}
+
 .study_text{
-	padding-top: 3%;
+	padding: 3% 0;
+	
 }
 .study_box1{
 	padding-top: 3%;
@@ -146,7 +149,7 @@ main{
 	text-align:left;
 	width:11%;
 	
-	margin-left:2%;
+	
 }
 .study_img{
 
@@ -159,25 +162,21 @@ main{
 	
 	background:#ffffff;
 	
-	width:40px;
+	width:50px;
 	color:#29b078;
 	border-style:solid;
 	border-color:#ebebeb;
 	border-radius:50px;
-	height:40px;
-	padding-top:8px;
+	height:50px;
+	padding-top:12px;
 }
-.good_student{
-	padding: 0 15%;
-	float:left;
-	width:100%;
-}
+
 .good_student_box1{
 	padding-top: 3%;
 	background:#ffffff;	
-	width:24%;
+	width:23%;
 	float:left;
-	margin-right:1%;
+	margin-right:1.2%;
 	border-style:solid;
 	border-color:#ebebeb;
 }
@@ -186,7 +185,7 @@ main{
 	background:#ffffff;	
 	width:23%;
 	float:left;
-	margin: 0 1%;
+	margin: 0 1.2%;
 	border-style:solid;
 	border-color:#ebebeb;
 }
@@ -195,20 +194,161 @@ main{
 	background:#ffffff;	
 	width:23%;
 	float:left;
-	margin: 0 1%;
+	margin: 0 1.2%;
 	border-style:solid;
 	border-color:#ebebeb;
 }
 .good_student_box4{
 	padding-top: 3%;
 	background:#ffffff;	
-	width:24%;
+	width:23%;
 	float:left;
-	margin-left:1%;
+	margin-left:1.2%;
 	border-style:solid;
 	border-color:#ebebeb;
 }
 .good_student_box_text{
 	padding: 0 6%;
 	text-align:left;
+}
+.Avatar_img{
+	width:80px;
+
+	border-radius:50px;
+	height:80px;
+}
+.foot_btn{
+	border-radius: 50px; 
+	border:none;
+	outline:none;
+	height:12px;
+	background:#dddddd;
+}
+.foot_btn:hover{background:#29bde0;}
+.foot_btn:focus {background:#29bde0;}
+.foot_btn:link{background:#dddddd;}
+
+.enterprise_box1{
+	float:left;
+	width:40%;
+	display: flex;
+    justify-content: space-between;
+	align-items: center ;
+	padding: 2% 0;
+	border-width:1px;
+	border-style:solid;
+	border-color:#ebebeb;
+	background:#ffffff;
+}
+.enterprise_box2{
+	float:left;
+	width:20%;
+	padding: 2% 0;
+	border-style:solid;
+	border-color:#ebebeb;
+	background:#ffffff;
+}
+.enterprise_img{
+	width:50%;
+}
+.enterprise_img_c{
+	width:92%;
+}
+.friend{
+	float:left;
+	width:100%;
+	
+	
+}
+
+.friend_div{
+	float:left;
+	width:9%;
+	padding-bottom:0.5%;
+	margin: 1% 0.5%;
+	font-size:2px;
+}
+.friend div:hover{
+	border-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#26a26f;
+}
+.friend div:focus {
+	border-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#26a26f;
+}
+.friend div:link{
+	border-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#26a26f;
+}
+main:after,
+main:before{
+      content: " ";
+      display: table; 
+}  
+main:after{
+      clear: both;
+}
+footer{
+	background:#29b078;
+	width:100%;
+	padding: 0 10%;
+	z-index:999;
+	min-width:768px;
+	padding-top:3%;
+	
+}
+.footer1{
+	float:left;
+	color:#ffffff;
+	width:30%;
+	text-align:left;
+}
+.footer_1{
+	border-width:1px;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-color:#ffffff;
+	padding:0 10px;
+	margin:0 10px;
+}
+
+.footer1_text{
+	font-size:2px;
+	margin-top:37px;
+	
+}
+.footer2{
+	float:left;
+	color:#ffffff;
+	width:30%;
+	text-align:left;
+}
+.footer2_text{
+	font-size:2px;
+}
+.footer_2{
+		margin-right:10px;
+}
+.footer_2:hover{
+	border-width:1px;
+	border-bottom-style:solid;
+	border-color:#ffffff;
+	}
+.footer_2:focus {	border-width:1px;
+	border-bottom-style:solid;
+	border-color:#ffffff;}
+.footer_2:link{	border-width:1px;
+	border-bottom-style:solid;
+border-color:#ffffff;}
+.footer3{
+	text-align:right;
+	float:left;
+	color:#ffffff;
+	width:40%;
+}
+.weixinhao_img{
+	width:82px;
 }
